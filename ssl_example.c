@@ -1,5 +1,4 @@
-/*
-```
+//
 // Demonstration of basic OpenSSL skills learned in two days. Simple http/https web client.
 //
 // compile with 
@@ -7,7 +6,7 @@
 // run with
 //   $ ./ssl_example [-s] <address>
 //
-*/
+
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -86,7 +85,3 @@ int main(int argc, char *const *argv)
     SSL_CTX_free(ctx);
     BIO_free_all(bio);
 }
-
-/*
-```
-*/
